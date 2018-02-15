@@ -3,9 +3,9 @@
     using Microsoft.AspNetCore;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.TestHost;
-    using Microsoft.eShopOnContainers.Services.Ordering.API;
-    using Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure;
-    using Microsoft.eShopOnContainers.Services.Ordering.Infrastructure;
+    using global::Ordering.API;
+    using global::Ordering.API.Infrastructure;
+    using global::Ordering.Infrastructure;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.Logging;

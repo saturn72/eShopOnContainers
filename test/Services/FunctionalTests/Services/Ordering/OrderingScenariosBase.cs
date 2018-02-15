@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF;
-using Microsoft.eShopOnContainers.Services.Ordering.API;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure;
-using Microsoft.eShopOnContainers.Services.Ordering.Infrastructure;
+using Ordering.API;
+using Ordering.API.Infrastructure;
+using Ordering.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;

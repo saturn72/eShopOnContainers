@@ -1,10 +1,11 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.API;
+﻿using Ordering.API;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 using IntegrationTests.Middleware;
+using Microsoft.eShopOnContainers.Services.Ordering.API;
 using Microsoft.Extensions.Configuration;
 
 namespace IntegrationTests.Services.Ordering

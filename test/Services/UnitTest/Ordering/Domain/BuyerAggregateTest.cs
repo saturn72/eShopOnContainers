@@ -1,4 +1,4 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
+﻿using Ordering.Domain.AggregatesModel.BuyerAggregate;
 using Ordering.Domain.Exceptions;
 using System;
 using Xunit;
